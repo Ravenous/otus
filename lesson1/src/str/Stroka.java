@@ -2,8 +2,8 @@ package str;
 
 public class Stroka {
 	
-	byte[] strokaBytes;
-	int strokaLenBytes;
+	private byte[] strokaBytes;
+	private int strokaLenBytes;
 	
 	public Stroka() {		
 	}
@@ -43,6 +43,18 @@ public class Stroka {
 	public void clearStroka() {
 		this.setStrokaBytes("");
 		this.setStrokaLenBytes("");
-	}	
-
+	}
+	@Override
+    public java.lang.String toString() {
+//      return "String:[{"+ new String(strokaBytes) + "}]";
+        StringBuilder stringBuilder = new StringBuilder();
+        stringBuilder.append("String:[");
+        for (byte str : strokaBytes) {
+        	char ch = (char) str;
+                stringBuilder.append("{").append(ch).append("}");
+        }
+        stringBuilder.append("]");
+        return stringBuilder.toString();
+    }
+    
 }
