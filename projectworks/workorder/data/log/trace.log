@@ -3205,3 +3205,412 @@ Caused by: java.lang.NullPointerException
 21/07/2020 12:38:47:161  INFO - 13404A93D8238862717A593C0DC9D440:/workorder : Using SCESession 13404A93D8238862717A593C0DC9D440:/workorder servlet : listClaim
 21/07/2020 12:38:58:600  INFO - 13404A93D8238862717A593C0DC9D440:/workorder : Using SCESession 13404A93D8238862717A593C0DC9D440:/workorder servlet : onMainMenu
 21/07/2020 12:38:58:652  INFO - 13404A93D8238862717A593C0DC9D440:/workorder : Using SCESession 13404A93D8238862717A593C0DC9D440:/workorder servlet : mainMenu
+21/07/2020 17:17:09:892  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : SCESession bound to HttpSession 7F63B456F29248DE1F80AFD908252CA9
+21/07/2020 17:17:09:893  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Browser Version 0.0, terminationURL enabled : false
+21/07/2020 17:17:09:899  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : User agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:78.0) Gecko/20100101 Firefox/78.0
+21/07/2020 17:17:09:901  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : Start
+21/07/2020 17:17:09:917 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Browser language code: en-us
+21/07/2020 17:17:09:950  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : ** Pushed Stack Frame [/workorder]
+21/07/2020 17:17:09:960 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Creating variable [msisdn] from factory [com.avaya.sce.runtime.html.WebInputSimpleVariableFactory]
+21/07/2020 17:17:09:965 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Not able to save posted variable information [simulation]
+21/07/2020 17:17:09:965 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Not able to save posted variable information [avaya.telephone.channel]
+21/07/2020 17:17:10:580  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : runtime_platform : Desktop
+21/07/2020 17:17:10:593 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Acquiring initial License
+21/07/2020 17:17:10:594  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Acquiring Desktop runtime license
+21/07/2020 17:17:10:595  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Runtime :true
+21/07/2020 17:17:10:595  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : IC :true
+21/07/2020 17:17:10:595  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : CTI :true
+21/07/2020 17:17:10:700 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Grace Period timer cleared
+21/07/2020 17:17:10:702 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : License refresh timer started
+21/07/2020 17:17:10:729  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : onStart
+21/07/2020 17:17:10:784  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : getMsisdn
+21/07/2020 17:17:17:115  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : setMsisdn
+21/07/2020 17:17:17:118  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Storing :msisdn to simple: msisdn  as [9686512000]
+21/07/2020 17:17:17:176  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Assigning [msisdn] to [request:msisdn]
+21/07/2020 17:17:17:177 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : channel:unknown | workorder:setMsisdn |  | request:msisdn : 9686512000
+21/07/2020 17:17:17:178  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : getCode
+21/07/2020 17:17:20:027  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : onMainMenu
+21/07/2020 17:17:20:029  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Storing :code to simple: code  as [1234]
+21/07/2020 17:17:20:084  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : mainMenu
+21/07/2020 17:17:26:689  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : onListMyClaim
+21/07/2020 17:17:26:689  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Storing :mainMenu___value to complex: mainMenu:value  as [listMyClaim]
+21/07/2020 17:17:26:689 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Not able to save posted variable information [simulation]
+21/07/2020 17:17:26:689 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Not able to save posted variable information [avaya.telephone.channel]
+21/07/2020 17:17:26:741  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Empty Collection [claim]
+21/07/2020 17:17:26:742  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Empty Collection [response]
+21/07/2020 17:17:26:743  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : getListMyClaim
+21/07/2020 17:17:26:807  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Starting REST web service operation [listMyClaim]
+21/07/2020 17:17:27:098 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Web Service Request -> http://127.0.0.1:9090/claim?msisdn=9686512000
+21/07/2020 17:17:27:511  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Unexpected EOF: Web service returned 0 bytes of data.
+21/07/2020 17:17:27:512 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : channel:unknown | workorder:getListMyClaim |  | response:all : 
+21/07/2020 17:17:27:512  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : parseListMyClaim
+21/07/2020 17:17:27:566  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : chkMyListClaim
+21/07/2020 17:17:27:620  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : [condition1] Expression [claim] Is Collection
+21/07/2020 17:17:27:621  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Assiging Size of [claim] to [size(L)]
+21/07/2020 17:17:27:623 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : channel:unknown | workorder:chkMyListClaim |  | size(L) : 0
+21/07/2020 17:17:27:623  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : [condition2] Expression [size(L)] Numeric Greater Than or Equal [1]
+21/07/2020 17:17:27:624  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : noMyClaim
+21/07/2020 17:17:30:191  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : onMainMenu
+21/07/2020 17:17:30:244  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : mainMenu
+21/07/2020 17:17:35:028  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : onGetMyInWorkClaim
+21/07/2020 17:17:35:028  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Storing :mainMenu___value to complex: mainMenu:value  as [closeClaim]
+21/07/2020 17:17:35:028 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Not able to save posted variable information [simulation]
+21/07/2020 17:17:35:028 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Not able to save posted variable information [avaya.telephone.channel]
+21/07/2020 17:17:35:080  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Assigning [inwork] to [request:filter]
+21/07/2020 17:17:35:080  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Empty Collection [claim]
+21/07/2020 17:17:35:080  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Empty Collection [response]
+21/07/2020 17:17:35:082  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : getMyInWorkClaim
+21/07/2020 17:17:35:141  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Starting REST web service operation [closeMyClaim]
+21/07/2020 17:17:35:166 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Web Service Request -> http://127.0.0.1:9090/claim?msisdn=9686512000&filter=inwork
+21/07/2020 17:17:35:189  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Unexpected EOF: Web service returned 0 bytes of data.
+21/07/2020 17:17:35:190 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : channel:unknown | workorder:getMyInWorkClaim |  | response:all : 
+21/07/2020 17:17:35:190  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : parseMyInWorkClaim
+21/07/2020 17:17:35:242  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : chkMyInWorkClaim
+21/07/2020 17:17:35:294  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : [condition1] Expression [claim] Is Collection
+21/07/2020 17:17:35:294  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Assiging Size of [claim] to [size(L)]
+21/07/2020 17:17:35:294 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : channel:unknown | workorder:chkMyInWorkClaim |  | size(L) : 0
+21/07/2020 17:17:35:295  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : [condition2] Expression [size(L)] Numeric Greater Than or Equal [1]
+21/07/2020 17:17:35:296  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : noMyInWorkClaim
+21/07/2020 17:17:38:142  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : onMainMenu
+21/07/2020 17:17:38:196  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : mainMenu
+21/07/2020 17:17:43:905  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : onTakeClaim
+21/07/2020 17:17:43:905  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Storing :mainMenu___value to complex: mainMenu:value  as [getClaim]
+21/07/2020 17:17:43:905 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Not able to save posted variable information [simulation]
+21/07/2020 17:17:43:905 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Not able to save posted variable information [avaya.telephone.channel]
+21/07/2020 17:17:43:957  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Assigning [take] to [request:action]
+21/07/2020 17:17:43:957  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Empty Collection [claim]
+21/07/2020 17:17:43:957  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Empty Collection [response]
+21/07/2020 17:17:43:958  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : takeClaim
+21/07/2020 17:17:44:013  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Starting REST web service operation [takeClaim]
+21/07/2020 17:17:44:045 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Web Service Request -> http://127.0.0.1:9090/claim?action=take&msisdn=9686512000
+21/07/2020 17:17:44:123  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Unexpected EOF: Web service returned 0 bytes of data.
+21/07/2020 17:17:44:124 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : channel:unknown | workorder:takeClaim |  | response:all : 
+21/07/2020 17:17:44:124  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : onListMyClaim
+21/07/2020 17:17:44:176  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Empty Collection [claim]
+21/07/2020 17:17:44:176  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Empty Collection [response]
+21/07/2020 17:17:44:176  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : getListMyClaim
+21/07/2020 17:17:44:228  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Starting REST web service operation [listMyClaim]
+21/07/2020 17:17:44:249 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Web Service Request -> http://127.0.0.1:9090/claim?msisdn=9686512000
+21/07/2020 17:17:44:360 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Storing [{"["id"":11,"topic":"Тест5","description":"55556====55","statusId":2,"statusName":"в работе","criticalId":4,"criticalName":"стандартная","timeOpen":1595155479923,"timeLimit":1595241879923,"timeBegin":1595341064104,"timeEnd":null,"employeeId":1}]] to: response:all
+21/07/2020 17:17:44:360 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Web Service Reply <- {"["id"":11,"topic":"Тест5","description":"55556====55","statusId":2,"statusName":"в работе","criticalId":4,"criticalName":"стандартная","timeOpen":1595155479923,"timeLimit":1595241879923,"timeBegin":1595341064104,"timeEnd":null,"employeeId":1}]
+21/07/2020 17:17:44:360 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : channel:unknown | workorder:getListMyClaim |  | response:all : {"["id"":11,"topic":"Тест5","description":"55556====55","statusId":2,"statusName":"в работе","criticalId":4,"criticalName":"стандартная","timeOpen":1595155479923,"timeLimit":1595241879923,"timeBegin":1595341064104,"timeEnd":null,"employeeId":1}]
+21/07/2020 17:17:44:361  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : parseListMyClaim
+21/07/2020 17:17:44:419  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : chkMyListClaim
+21/07/2020 17:17:44:469  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : [condition1] Expression [claim] Is Collection
+21/07/2020 17:17:44:469  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Assiging Size of [claim] to [size(L)]
+21/07/2020 17:17:44:469 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : channel:unknown | workorder:chkMyListClaim |  | size(L) : 1
+21/07/2020 17:17:44:469  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : [condition2] Expression [size(L)] Numeric Greater Than or Equal [1]
+21/07/2020 17:17:44:472  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : listMyClaim
+21/07/2020 17:17:47:729  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : onMainMenu
+21/07/2020 17:17:47:780  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : mainMenu
+21/07/2020 17:17:56:518  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : onListMyClaim
+21/07/2020 17:17:56:518  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Storing :mainMenu___value to complex: mainMenu:value  as [listMyClaim]
+21/07/2020 17:17:56:518 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Not able to save posted variable information [simulation]
+21/07/2020 17:17:56:518 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Not able to save posted variable information [avaya.telephone.channel]
+21/07/2020 17:17:56:569  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Empty Collection [claim]
+21/07/2020 17:17:56:569  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Empty Collection [response]
+21/07/2020 17:17:56:569  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : getListMyClaim
+21/07/2020 17:17:56:620  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Starting REST web service operation [listMyClaim]
+21/07/2020 17:17:56:646 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Web Service Request -> http://127.0.0.1:9090/claim?msisdn=9686512000
+21/07/2020 17:17:56:672 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Storing [{"["id"":11,"topic":"Тест5","description":"55556====55","statusId":2,"statusName":"в работе","criticalId":4,"criticalName":"стандартная","timeOpen":1595155479923,"timeLimit":1595241879923,"timeBegin":1595341064104,"timeEnd":null,"employeeId":1}]] to: response:all
+21/07/2020 17:17:56:672 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Web Service Reply <- {"["id"":11,"topic":"Тест5","description":"55556====55","statusId":2,"statusName":"в работе","criticalId":4,"criticalName":"стандартная","timeOpen":1595155479923,"timeLimit":1595241879923,"timeBegin":1595341064104,"timeEnd":null,"employeeId":1}]
+21/07/2020 17:17:56:672 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : channel:unknown | workorder:getListMyClaim |  | response:all : {"["id"":11,"topic":"Тест5","description":"55556====55","statusId":2,"statusName":"в работе","criticalId":4,"criticalName":"стандартная","timeOpen":1595155479923,"timeLimit":1595241879923,"timeBegin":1595341064104,"timeEnd":null,"employeeId":1}]
+21/07/2020 17:17:56:673  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : parseListMyClaim
+21/07/2020 17:17:56:724  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : chkMyListClaim
+21/07/2020 17:17:56:776  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : [condition1] Expression [claim] Is Collection
+21/07/2020 17:17:56:776  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Assiging Size of [claim] to [size(L)]
+21/07/2020 17:17:56:776 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : channel:unknown | workorder:chkMyListClaim |  | size(L) : 1
+21/07/2020 17:17:56:776  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : [condition2] Expression [size(L)] Numeric Greater Than or Equal [1]
+21/07/2020 17:17:56:777  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : listMyClaim
+21/07/2020 17:17:59:441  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : onMainMenu
+21/07/2020 17:17:59:495  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : mainMenu
+21/07/2020 17:18:03:857  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : onGetMyInWorkClaim
+21/07/2020 17:18:03:857  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Storing :mainMenu___value to complex: mainMenu:value  as [closeClaim]
+21/07/2020 17:18:03:857 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Not able to save posted variable information [simulation]
+21/07/2020 17:18:03:857 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Not able to save posted variable information [avaya.telephone.channel]
+21/07/2020 17:18:03:908  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Assigning [inwork] to [request:filter]
+21/07/2020 17:18:03:908  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Empty Collection [claim]
+21/07/2020 17:18:03:908  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Empty Collection [response]
+21/07/2020 17:18:03:908  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : getMyInWorkClaim
+21/07/2020 17:18:03:959  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Starting REST web service operation [closeMyClaim]
+21/07/2020 17:18:03:973 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Web Service Request -> http://127.0.0.1:9090/claim?msisdn=9686512000&filter=inwork
+21/07/2020 17:18:03:990 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Storing [{"["id"":11,"topic":"Тест5","description":"55556====55","statusId":2,"statusName":"в работе","criticalId":4,"criticalName":"стандартная","timeOpen":1595155479923,"timeLimit":1595241879923,"timeBegin":1595341064104,"timeEnd":null,"employeeId":1}]] to: response:all
+21/07/2020 17:18:03:990 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Web Service Reply <- {"["id"":11,"topic":"Тест5","description":"55556====55","statusId":2,"statusName":"в работе","criticalId":4,"criticalName":"стандартная","timeOpen":1595155479923,"timeLimit":1595241879923,"timeBegin":1595341064104,"timeEnd":null,"employeeId":1}]
+21/07/2020 17:18:03:991 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : channel:unknown | workorder:getMyInWorkClaim |  | response:all : {"["id"":11,"topic":"Тест5","description":"55556====55","statusId":2,"statusName":"в работе","criticalId":4,"criticalName":"стандартная","timeOpen":1595155479923,"timeLimit":1595241879923,"timeBegin":1595341064104,"timeEnd":null,"employeeId":1}]
+21/07/2020 17:18:03:991  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : parseMyInWorkClaim
+21/07/2020 17:18:04:041  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : chkMyInWorkClaim
+21/07/2020 17:18:04:092  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : [condition1] Expression [claim] Is Collection
+21/07/2020 17:18:04:092  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Assiging Size of [claim] to [size(L)]
+21/07/2020 17:18:04:092 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : channel:unknown | workorder:chkMyInWorkClaim |  | size(L) : 1
+21/07/2020 17:18:04:092  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : [condition2] Expression [size(L)] Numeric Greater Than or Equal [1]
+21/07/2020 17:18:04:093  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : MyInWorkClaim
+21/07/2020 17:18:07:518  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : onCloseClaim
+21/07/2020 17:18:07:569  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Assigning [claim:id] to [request:claim_id]
+21/07/2020 17:18:07:569  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Assigning [close] to [request:action]
+21/07/2020 17:18:07:569  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Empty Collection [claim]
+21/07/2020 17:18:07:570  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Empty Collection [response]
+21/07/2020 17:18:07:570  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : closeClaim
+21/07/2020 17:18:07:623  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Starting REST web service operation [closeClaim]
+21/07/2020 17:18:07:650 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Web Service Request -> http://127.0.0.1:9090/claim/11/close
+21/07/2020 17:18:07:676  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Unexpected EOF: Web service returned 0 bytes of data.
+21/07/2020 17:18:07:677 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : channel:unknown | workorder:closeClaim |  | response:all : 
+21/07/2020 17:18:07:678  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : onMainMenu
+21/07/2020 17:18:07:728  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : mainMenu
+21/07/2020 17:18:12:774  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : onListMyClaim
+21/07/2020 17:18:12:774  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Storing :mainMenu___value to complex: mainMenu:value  as [listMyClaim]
+21/07/2020 17:18:12:774 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Not able to save posted variable information [simulation]
+21/07/2020 17:18:12:774 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Not able to save posted variable information [avaya.telephone.channel]
+21/07/2020 17:18:12:826  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Empty Collection [claim]
+21/07/2020 17:18:12:826  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Empty Collection [response]
+21/07/2020 17:18:12:826  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : getListMyClaim
+21/07/2020 17:18:12:877  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Starting REST web service operation [listMyClaim]
+21/07/2020 17:18:12:893 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Web Service Request -> http://127.0.0.1:9090/claim?msisdn=9686512000
+21/07/2020 17:18:12:911  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Unexpected EOF: Web service returned 0 bytes of data.
+21/07/2020 17:18:12:911 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : channel:unknown | workorder:getListMyClaim |  | response:all : 
+21/07/2020 17:18:12:912  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : parseListMyClaim
+21/07/2020 17:18:12:962  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : chkMyListClaim
+21/07/2020 17:18:13:014  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : [condition1] Expression [claim] Is Collection
+21/07/2020 17:18:13:014  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Assiging Size of [claim] to [size(L)]
+21/07/2020 17:18:13:014 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : channel:unknown | workorder:chkMyListClaim |  | size(L) : 0
+21/07/2020 17:18:13:014  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : [condition2] Expression [size(L)] Numeric Greater Than or Equal [1]
+21/07/2020 17:18:13:014  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : noMyClaim
+21/07/2020 17:18:15:924  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : onMainMenu
+21/07/2020 17:18:15:975  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : mainMenu
+21/07/2020 17:18:20:339  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : onListClaim
+21/07/2020 17:18:20:339  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Storing :mainMenu___value to complex: mainMenu:value  as [listClaim]
+21/07/2020 17:18:20:339 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Not able to save posted variable information [simulation]
+21/07/2020 17:18:20:339 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Not able to save posted variable information [avaya.telephone.channel]
+21/07/2020 17:18:20:390  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Empty Collection [claim]
+21/07/2020 17:18:20:391  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Empty Collection [response]
+21/07/2020 17:18:20:392  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : getListClaim
+21/07/2020 17:18:20:444  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Starting REST web service operation [listClaim]
+21/07/2020 17:18:20:468 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Web Service Request -> http://127.0.0.1:9090/claim
+21/07/2020 17:18:20:504 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Storing [{"["id"":5,"topic":"Тест","description":"Tetetetetete","statusId":3,"statusName":"закрыта","criticalId":2,"criticalName":"срочная","timeOpen":1595150656056,"timeLimit":1595150656056,"timeBegin":1595320535335,"timeEnd":1595320649279,"employeeId":1},{"id":6,"topic":"Тест2","description":"Tetetetete3333te","statusId":3,"statusName":"закрыта","criticalId":2,"criticalName":"срочная","timeOpen":1595152685496,"timeLimit":1595152685496,"timeBegin":1595321942618,"timeEnd":1595323862846,"employeeId":1},{"id":7,"topic":"Тест4","description":"555555","statusId":3,"statusName":"закрыта","criticalId":2,"criticalName":"срочная","timeOpen":1595153435731,"timeLimit":1595153435731,"timeBegin":null,"timeEnd":1595307006183,"employeeId":1},{"id":11,"topic":"Тест5","description":"55556====55","statusId":3,"statusName":"закрыта","criticalId":4,"criticalName":"стандартная","timeOpen":1595155479923,"timeLimit":1595241879923,"timeBegin":1595341064104,"timeEnd":1595341087671,"employeeId":1}]] to: response:all
+21/07/2020 17:18:20:505 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Web Service Reply <- {"["id"":5,"topic":"Тест","description":"Tetetetetete","statusId":3,"statusName":"закрыта","criticalId":2,"criticalName":"срочная","timeOpen":1595150656056,"timeLimit":1595150656056,"timeBegin":1595320535335,"timeEnd":1595320649279,"employeeId":1},{"id":6,"topic":"Тест2","description":"Tetetetete3333te","statusId":3,"statusName":"закрыта","criticalId":2,"criticalName":"срочная","timeOpen":1595152685496,"timeLimit":1595152685496,"timeBegin":1595321942618,"timeEnd":1595323862846,"employeeId":1},{"id":7,"topic":"Тест4","description":"555555","statusId":3,"statusName":"закрыта","criticalId":2,"criticalName":"срочная","timeOpen":1595153435731,"timeLimit":1595153435731,"timeBegin":null,"timeEnd":1595307006183,"employeeId":1},{"id":11,"topic":"Тест5","description":"55556====55","statusId":3,"statusName":"закрыта","criticalId":4,"criticalName":"стандартная","timeOpen":1595155479923,"timeLimit":1595241879923,"timeBegin":1595341064104,"timeEnd":1595341087671,"employeeId":1}]
+21/07/2020 17:18:20:505 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : channel:unknown | workorder:getListClaim |  | response:all : {"["id"":5,"topic":"Тест","description":"Tetetetetete","statusId":3,"statusName":"закрыта","criticalId":2,"criticalName":"срочная","timeOpen":1595150656056,"timeLimit":1595150656056,"timeBegin":1595320535335,"timeEnd":1595320649279,"employeeId":1},{"id":6,"topic":"Тест2","description":"Tetetetete3333te","statusId":3,"statusName":"закрыта","criticalId":2,"criticalName":"срочная","timeOpen":1595152685496,"timeLimit":1595152685496,"timeBegin":1595321942618,"timeEnd":1595323862846,"employeeId":1},{"id":7,"topic":"Тест4","description":"555555","statusId":3,"statusName":"закрыта","criticalId":2,"criticalName":"срочная","timeOpen":1595153435731,"timeLimit":1595153435731,"timeBegin":null,"timeEnd":1595307006183,"employeeId":1},{"id":11,"topic":"Тест5","description":"55556====55","statusId":3,"statusName":"закрыта","criticalId":4,"criticalName":"стандартная","timeOpen":1595155479923,"timeLimit":1595241879923,"timeBegin":1595341064104,"timeEnd":1595341087671,"employeeId":1}]
+21/07/2020 17:18:20:506  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : parseListClaim
+21/07/2020 17:18:20:559  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : chkListClaim
+21/07/2020 17:18:20:610  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : [condition1] Expression [claim] Is Collection
+21/07/2020 17:18:20:610  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Assiging Size of [claim] to [size(L)]
+21/07/2020 17:18:20:610 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : channel:unknown | workorder:chkListClaim |  | size(L) : 4
+21/07/2020 17:18:20:611  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : [condition2] Expression [size(L)] Numeric Greater Than or Equal [1]
+21/07/2020 17:18:20:612  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : listClaim
+21/07/2020 17:18:29:420  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : onMainMenu
+21/07/2020 17:18:29:471  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : mainMenu
+21/07/2020 17:18:34:806  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : onTakeClaim
+21/07/2020 17:18:34:806  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Storing :mainMenu___value to complex: mainMenu:value  as [getClaim]
+21/07/2020 17:18:34:806 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Not able to save posted variable information [simulation]
+21/07/2020 17:18:34:806 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Not able to save posted variable information [avaya.telephone.channel]
+21/07/2020 17:18:34:856  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Assigning [take] to [request:action]
+21/07/2020 17:18:34:856  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Empty Collection [claim]
+21/07/2020 17:18:34:856  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Empty Collection [response]
+21/07/2020 17:18:34:856  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : takeClaim
+21/07/2020 17:18:34:909  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Starting REST web service operation [takeClaim]
+21/07/2020 17:18:34:928 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Web Service Request -> http://127.0.0.1:9090/claim?action=take&msisdn=9686512000
+21/07/2020 17:18:34:946  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Unexpected EOF: Web service returned 0 bytes of data.
+21/07/2020 17:18:34:946 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : channel:unknown | workorder:takeClaim |  | response:all : 
+21/07/2020 17:18:34:946  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : onListMyClaim
+21/07/2020 17:18:34:998  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Empty Collection [claim]
+21/07/2020 17:18:34:998  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Empty Collection [response]
+21/07/2020 17:18:34:998  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : getListMyClaim
+21/07/2020 17:18:35:048  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Starting REST web service operation [listMyClaim]
+21/07/2020 17:18:35:063 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Web Service Request -> http://127.0.0.1:9090/claim?msisdn=9686512000
+21/07/2020 17:18:35:073  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Unexpected EOF: Web service returned 0 bytes of data.
+21/07/2020 17:18:35:073 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : channel:unknown | workorder:getListMyClaim |  | response:all : 
+21/07/2020 17:18:35:073  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : parseListMyClaim
+21/07/2020 17:18:35:126  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : chkMyListClaim
+21/07/2020 17:18:35:178  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : [condition1] Expression [claim] Is Collection
+21/07/2020 17:18:35:178  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Assiging Size of [claim] to [size(L)]
+21/07/2020 17:18:35:178 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : channel:unknown | workorder:chkMyListClaim |  | size(L) : 0
+21/07/2020 17:18:35:178  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : [condition2] Expression [size(L)] Numeric Greater Than or Equal [1]
+21/07/2020 17:18:35:178  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : noMyClaim
+21/07/2020 17:18:40:130  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : onMainMenu
+21/07/2020 17:18:40:181  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : mainMenu
+21/07/2020 17:21:48:777  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : HTTP Session lost removing SCESession 7F63B456F29248DE1F80AFD908252CA9
+21/07/2020 17:21:48:777  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : SCESession Removed
+21/07/2020 17:21:48:777 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Removing 1 session stack frames.
+21/07/2020 17:21:48:777  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : ** Popped Stack Frame [/workorder]
+21/07/2020 17:27:40:794  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : SCESession bound to HttpSession 7F63B456F29248DE1F80AFD908252CA9
+21/07/2020 17:27:40:796  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Browser Version 0.0, terminationURL enabled : false
+21/07/2020 17:27:40:801  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : User agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:78.0) Gecko/20100101 Firefox/78.0
+21/07/2020 17:27:40:805  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : Start
+21/07/2020 17:27:40:817 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Browser language code: en-us
+21/07/2020 17:27:40:846  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : ** Pushed Stack Frame [/workorder]
+21/07/2020 17:27:40:856 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Creating variable [msisdn] from factory [com.avaya.sce.runtime.html.WebInputSimpleVariableFactory]
+21/07/2020 17:27:40:859 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Not able to save posted variable information [simulation]
+21/07/2020 17:27:40:860 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Not able to save posted variable information [avaya.telephone.channel]
+21/07/2020 17:27:41:468  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : runtime_platform : Desktop
+21/07/2020 17:27:41:479 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Acquiring initial License
+21/07/2020 17:27:41:480  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Acquiring Desktop runtime license
+21/07/2020 17:27:41:480  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Runtime :true
+21/07/2020 17:27:41:480  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : IC :true
+21/07/2020 17:27:41:480  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : CTI :true
+21/07/2020 17:27:41:558 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Grace Period timer cleared
+21/07/2020 17:27:41:559 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : License refresh timer started
+21/07/2020 17:27:41:566  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : onStart
+21/07/2020 17:27:41:619  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : getMsisdn
+21/07/2020 17:27:48:629  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : setMsisdn
+21/07/2020 17:27:48:634  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Storing :msisdn to simple: msisdn  as [9686512000]
+21/07/2020 17:27:48:697  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Assigning [msisdn] to [request:msisdn]
+21/07/2020 17:27:48:698 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : channel:unknown | workorder:setMsisdn |  | request:msisdn : 9686512000
+21/07/2020 17:27:48:699  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : getCode
+21/07/2020 17:27:52:457  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : onMainMenu
+21/07/2020 17:27:52:458  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Storing :code to simple: code  as [1234]
+21/07/2020 17:27:52:509  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Assigning [none] to [request:action]
+21/07/2020 17:27:52:510  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : mainMenu
+21/07/2020 17:27:57:534  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : onListClaim
+21/07/2020 17:27:57:535  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Storing :mainMenu___value to complex: mainMenu:value  as [listClaim]
+21/07/2020 17:27:57:535 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Not able to save posted variable information [simulation]
+21/07/2020 17:27:57:535 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Not able to save posted variable information [avaya.telephone.channel]
+21/07/2020 17:27:57:589  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Empty Collection [claim]
+21/07/2020 17:27:57:590  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Empty Collection [response]
+21/07/2020 17:27:57:591  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : getListClaim
+21/07/2020 17:27:57:658  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Starting REST web service operation [listClaim]
+21/07/2020 17:27:57:928 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Web Service Request -> http://127.0.0.1:9090/claim
+21/07/2020 17:27:58:161 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Storing [{"["id"":5,"topic":"Тест","description":"Tetetetetete","statusId":3,"statusName":"закрыта","criticalId":2,"criticalName":"срочная","timeOpen":1595150656056,"timeLimit":1595150656056,"timeBegin":1595320535335,"timeEnd":1595320649279,"employeeId":1},{"id":6,"topic":"Тест2","description":"Tetetetete3333te","statusId":3,"statusName":"закрыта","criticalId":2,"criticalName":"срочная","timeOpen":1595152685496,"timeLimit":1595152685496,"timeBegin":1595321942618,"timeEnd":1595323862846,"employeeId":1},{"id":7,"topic":"Тест4","description":"555555","statusId":3,"statusName":"закрыта","criticalId":2,"criticalName":"срочная","timeOpen":1595153435731,"timeLimit":1595153435731,"timeBegin":null,"timeEnd":1595307006183,"employeeId":1},{"id":11,"topic":"Тест5","description":"55556====55","statusId":3,"statusName":"закрыта","criticalId":4,"criticalName":"стандартная","timeOpen":1595155479923,"timeLimit":1595241879923,"timeBegin":1595341064104,"timeEnd":1595341087671,"employeeId":1}]] to: response:all
+21/07/2020 17:27:58:161 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Web Service Reply <- {"["id"":5,"topic":"Тест","description":"Tetetetetete","statusId":3,"statusName":"закрыта","criticalId":2,"criticalName":"срочная","timeOpen":1595150656056,"timeLimit":1595150656056,"timeBegin":1595320535335,"timeEnd":1595320649279,"employeeId":1},{"id":6,"topic":"Тест2","description":"Tetetetete3333te","statusId":3,"statusName":"закрыта","criticalId":2,"criticalName":"срочная","timeOpen":1595152685496,"timeLimit":1595152685496,"timeBegin":1595321942618,"timeEnd":1595323862846,"employeeId":1},{"id":7,"topic":"Тест4","description":"555555","statusId":3,"statusName":"закрыта","criticalId":2,"criticalName":"срочная","timeOpen":1595153435731,"timeLimit":1595153435731,"timeBegin":null,"timeEnd":1595307006183,"employeeId":1},{"id":11,"topic":"Тест5","description":"55556====55","statusId":3,"statusName":"закрыта","criticalId":4,"criticalName":"стандартная","timeOpen":1595155479923,"timeLimit":1595241879923,"timeBegin":1595341064104,"timeEnd":1595341087671,"employeeId":1}]
+21/07/2020 17:27:58:161 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : channel:unknown | workorder:getListClaim |  | response:all : {"["id"":5,"topic":"Тест","description":"Tetetetetete","statusId":3,"statusName":"закрыта","criticalId":2,"criticalName":"срочная","timeOpen":1595150656056,"timeLimit":1595150656056,"timeBegin":1595320535335,"timeEnd":1595320649279,"employeeId":1},{"id":6,"topic":"Тест2","description":"Tetetetete3333te","statusId":3,"statusName":"закрыта","criticalId":2,"criticalName":"срочная","timeOpen":1595152685496,"timeLimit":1595152685496,"timeBegin":1595321942618,"timeEnd":1595323862846,"employeeId":1},{"id":7,"topic":"Тест4","description":"555555","statusId":3,"statusName":"закрыта","criticalId":2,"criticalName":"срочная","timeOpen":1595153435731,"timeLimit":1595153435731,"timeBegin":null,"timeEnd":1595307006183,"employeeId":1},{"id":11,"topic":"Тест5","description":"55556====55","statusId":3,"statusName":"закрыта","criticalId":4,"criticalName":"стандартная","timeOpen":1595155479923,"timeLimit":1595241879923,"timeBegin":1595341064104,"timeEnd":1595341087671,"employeeId":1}]
+21/07/2020 17:27:58:162  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : parseListClaim
+21/07/2020 17:27:58:224  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : chkListClaim
+21/07/2020 17:27:58:278  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : [condition1] Expression [claim] Is Collection
+21/07/2020 17:27:58:279  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Assiging Size of [claim] to [size(L)]
+21/07/2020 17:27:58:281 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : channel:unknown | workorder:chkListClaim |  | size(L) : 4
+21/07/2020 17:27:58:281  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : [condition2] Expression [size(L)] Numeric Greater Than or Equal [1]
+21/07/2020 17:27:58:283  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : listClaim
+21/07/2020 17:28:05:110  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : onMainMenu
+21/07/2020 17:28:05:161  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Assigning [none] to [request:action]
+21/07/2020 17:28:05:161  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : mainMenu
+21/07/2020 17:28:09:723  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : onListMyClaim
+21/07/2020 17:28:09:723  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Storing :mainMenu___value to complex: mainMenu:value  as [listMyClaim]
+21/07/2020 17:28:09:723 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Not able to save posted variable information [simulation]
+21/07/2020 17:28:09:723 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Not able to save posted variable information [avaya.telephone.channel]
+21/07/2020 17:28:09:775  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Empty Collection [claim]
+21/07/2020 17:28:09:776  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Empty Collection [response]
+21/07/2020 17:28:09:777  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : getListMyClaim
+21/07/2020 17:28:09:829  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Starting REST web service operation [listMyClaim]
+21/07/2020 17:28:09:860 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Web Service Request -> http://127.0.0.1:9090/claim?msisdn=9686512000
+21/07/2020 17:28:09:913  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Unexpected EOF: Web service returned 0 bytes of data.
+21/07/2020 17:28:09:914 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : channel:unknown | workorder:getListMyClaim |  | response:all : 
+21/07/2020 17:28:09:916  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : parseListMyClaim
+21/07/2020 17:28:09:969  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : chkMyListClaim
+21/07/2020 17:28:10:021  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : [condition1] Expression [claim] Is Collection
+21/07/2020 17:28:10:021  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Assiging Size of [claim] to [size(L)]
+21/07/2020 17:28:10:021 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : channel:unknown | workorder:chkMyListClaim |  | size(L) : 0
+21/07/2020 17:28:10:021  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : [condition2] Expression [size(L)] Numeric Greater Than or Equal [1]
+21/07/2020 17:28:10:022  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : chkTakeClaim
+21/07/2020 17:28:10:074  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : [condition1] Expression [request:action] String Equal Ignorecase [take]
+21/07/2020 17:28:10:075  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : noMyClaim
+21/07/2020 17:28:12:520  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : onMainMenu
+21/07/2020 17:28:12:572  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Assigning [none] to [request:action]
+21/07/2020 17:28:12:572  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : mainMenu
+21/07/2020 17:28:16:975  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : onTakeClaim
+21/07/2020 17:28:16:975  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Storing :mainMenu___value to complex: mainMenu:value  as [getClaim]
+21/07/2020 17:28:16:975 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Not able to save posted variable information [simulation]
+21/07/2020 17:28:16:975 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Not able to save posted variable information [avaya.telephone.channel]
+21/07/2020 17:28:17:025  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Assigning [take] to [request:action]
+21/07/2020 17:28:17:025  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Empty Collection [claim]
+21/07/2020 17:28:17:026  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Empty Collection [response]
+21/07/2020 17:28:17:028  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : takeClaim
+21/07/2020 17:28:17:082  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Starting REST web service operation [takeClaim]
+21/07/2020 17:28:17:108 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Web Service Request -> http://127.0.0.1:9090/claim?action=take&msisdn=9686512000
+21/07/2020 17:28:17:131  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Unexpected EOF: Web service returned 0 bytes of data.
+21/07/2020 17:28:17:131 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : channel:unknown | workorder:takeClaim |  | response:all : 
+21/07/2020 17:28:17:132  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : onListMyClaim
+21/07/2020 17:28:17:182  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Empty Collection [claim]
+21/07/2020 17:28:17:182  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Empty Collection [response]
+21/07/2020 17:28:17:182  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : getListMyClaim
+21/07/2020 17:28:17:233  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Starting REST web service operation [listMyClaim]
+21/07/2020 17:28:17:250 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Web Service Request -> http://127.0.0.1:9090/claim?msisdn=9686512000
+21/07/2020 17:28:17:259  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Unexpected EOF: Web service returned 0 bytes of data.
+21/07/2020 17:28:17:259 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : channel:unknown | workorder:getListMyClaim |  | response:all : 
+21/07/2020 17:28:17:259  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : parseListMyClaim
+21/07/2020 17:28:17:309  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : chkMyListClaim
+21/07/2020 17:28:17:360  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : [condition1] Expression [claim] Is Collection
+21/07/2020 17:28:17:360  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Assiging Size of [claim] to [size(L)]
+21/07/2020 17:28:17:360 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : channel:unknown | workorder:chkMyListClaim |  | size(L) : 0
+21/07/2020 17:28:17:360  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : [condition2] Expression [size(L)] Numeric Greater Than or Equal [1]
+21/07/2020 17:28:17:361  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : chkTakeClaim
+21/07/2020 17:28:17:413  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : [condition1] Expression [request:action] String Equal Ignorecase [take]
+21/07/2020 17:28:17:415  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : noClaim
+21/07/2020 17:28:20:020  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Using SCESession 7F63B456F29248DE1F80AFD908252CA9:/workorder servlet : exit
+21/07/2020 17:28:20:402  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : HTTP Session lost removing SCESession 7F63B456F29248DE1F80AFD908252CA9
+21/07/2020 17:28:20:403  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : SCESession Removed
+21/07/2020 17:28:20:403 DEBUG - 7F63B456F29248DE1F80AFD908252CA9:/workorder : Removing 1 session stack frames.
+21/07/2020 17:28:20:403  INFO - 7F63B456F29248DE1F80AFD908252CA9:/workorder : ** Popped Stack Frame [/workorder]
+21/07/2020 17:32:00:645  INFO - 0375040FAD5B4D99E31561162E8CA437:/workorder : SCESession bound to HttpSession 0375040FAD5B4D99E31561162E8CA437
+21/07/2020 17:32:00:645  INFO - 0375040FAD5B4D99E31561162E8CA437:/workorder : Browser Version 0.0, terminationURL enabled : false
+21/07/2020 17:32:00:647  INFO - 0375040FAD5B4D99E31561162E8CA437:/workorder : User agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:78.0) Gecko/20100101 Firefox/78.0
+21/07/2020 17:32:00:647  INFO - 0375040FAD5B4D99E31561162E8CA437:/workorder : Using SCESession 0375040FAD5B4D99E31561162E8CA437:/workorder servlet : Start
+21/07/2020 17:32:00:651 DEBUG - 0375040FAD5B4D99E31561162E8CA437:/workorder : Browser language code: en-us
+21/07/2020 17:32:00:655  INFO - 0375040FAD5B4D99E31561162E8CA437:/workorder : ** Pushed Stack Frame [/workorder]
+21/07/2020 17:32:00:655 DEBUG - 0375040FAD5B4D99E31561162E8CA437:/workorder : Creating variable [msisdn] from factory [com.avaya.sce.runtime.html.WebInputSimpleVariableFactory]
+21/07/2020 17:32:00:655 DEBUG - 0375040FAD5B4D99E31561162E8CA437:/workorder : Not able to save posted variable information [simulation]
+21/07/2020 17:32:00:656 DEBUG - 0375040FAD5B4D99E31561162E8CA437:/workorder : Not able to save posted variable information [avaya.telephone.channel]
+21/07/2020 17:32:01:257  INFO - 0375040FAD5B4D99E31561162E8CA437:/workorder : runtime_platform : Desktop
+21/07/2020 17:32:01:257  INFO - 0375040FAD5B4D99E31561162E8CA437:/workorder : Using SCESession 0375040FAD5B4D99E31561162E8CA437:/workorder servlet : onStart
+21/07/2020 17:32:01:309  INFO - 0375040FAD5B4D99E31561162E8CA437:/workorder : Using SCESession 0375040FAD5B4D99E31561162E8CA437:/workorder servlet : getMsisdn
+21/07/2020 17:32:05:377  INFO - 0375040FAD5B4D99E31561162E8CA437:/workorder : Using SCESession 0375040FAD5B4D99E31561162E8CA437:/workorder servlet : setMsisdn
+21/07/2020 17:32:05:380  INFO - 0375040FAD5B4D99E31561162E8CA437:/workorder : Storing :msisdn to simple: msisdn  as [9686512000]
+21/07/2020 17:32:05:431  INFO - 0375040FAD5B4D99E31561162E8CA437:/workorder : Assigning [msisdn] to [request:msisdn]
+21/07/2020 17:32:05:431 DEBUG - 0375040FAD5B4D99E31561162E8CA437:/workorder : channel:unknown | workorder:setMsisdn |  | request:msisdn : 9686512000
+21/07/2020 17:32:05:431  INFO - 0375040FAD5B4D99E31561162E8CA437:/workorder : Using SCESession 0375040FAD5B4D99E31561162E8CA437:/workorder servlet : getCode
+21/07/2020 17:32:09:560  INFO - 0375040FAD5B4D99E31561162E8CA437:/workorder : Using SCESession 0375040FAD5B4D99E31561162E8CA437:/workorder servlet : onMainMenu
+21/07/2020 17:32:09:560  INFO - 0375040FAD5B4D99E31561162E8CA437:/workorder : Storing :code to simple: code  as [1234]
+21/07/2020 17:32:09:611  INFO - 0375040FAD5B4D99E31561162E8CA437:/workorder : Assigning [none] to [request:action]
+21/07/2020 17:32:09:611  INFO - 0375040FAD5B4D99E31561162E8CA437:/workorder : Using SCESession 0375040FAD5B4D99E31561162E8CA437:/workorder servlet : mainMenu
+21/07/2020 17:32:16:342  INFO - 0375040FAD5B4D99E31561162E8CA437:/workorder : Using SCESession 0375040FAD5B4D99E31561162E8CA437:/workorder servlet : onGetMyInWorkClaim
+21/07/2020 17:32:16:342  INFO - 0375040FAD5B4D99E31561162E8CA437:/workorder : Storing :mainMenu___value to complex: mainMenu:value  as [closeClaim]
+21/07/2020 17:32:16:342 DEBUG - 0375040FAD5B4D99E31561162E8CA437:/workorder : Not able to save posted variable information [simulation]
+21/07/2020 17:32:16:342 DEBUG - 0375040FAD5B4D99E31561162E8CA437:/workorder : Not able to save posted variable information [avaya.telephone.channel]
+21/07/2020 17:32:16:394  INFO - 0375040FAD5B4D99E31561162E8CA437:/workorder : Assigning [inwork] to [request:filter]
+21/07/2020 17:32:16:394  INFO - 0375040FAD5B4D99E31561162E8CA437:/workorder : Empty Collection [claim]
+21/07/2020 17:32:16:395  INFO - 0375040FAD5B4D99E31561162E8CA437:/workorder : Empty Collection [response]
+21/07/2020 17:32:16:396  INFO - 0375040FAD5B4D99E31561162E8CA437:/workorder : Using SCESession 0375040FAD5B4D99E31561162E8CA437:/workorder servlet : getMyInWorkClaim
+21/07/2020 17:32:16:448  INFO - 0375040FAD5B4D99E31561162E8CA437:/workorder : Starting REST web service operation [closeMyClaim]
+21/07/2020 17:32:16:473 DEBUG - 0375040FAD5B4D99E31561162E8CA437:/workorder : Web Service Request -> http://127.0.0.1:9090/claim?msisdn=9686512000&filter=inwork
+21/07/2020 17:32:16:494  INFO - 0375040FAD5B4D99E31561162E8CA437:/workorder : Unexpected EOF: Web service returned 0 bytes of data.
+21/07/2020 17:32:16:494 DEBUG - 0375040FAD5B4D99E31561162E8CA437:/workorder : channel:unknown | workorder:getMyInWorkClaim |  | response:all : 
+21/07/2020 17:32:16:495  INFO - 0375040FAD5B4D99E31561162E8CA437:/workorder : Using SCESession 0375040FAD5B4D99E31561162E8CA437:/workorder servlet : parseMyInWorkClaim
+21/07/2020 17:32:16:548  INFO - 0375040FAD5B4D99E31561162E8CA437:/workorder : Using SCESession 0375040FAD5B4D99E31561162E8CA437:/workorder servlet : chkMyInWorkClaim
+21/07/2020 17:32:16:598  INFO - 0375040FAD5B4D99E31561162E8CA437:/workorder : [condition1] Expression [claim] Is Collection
+21/07/2020 17:32:16:598  INFO - 0375040FAD5B4D99E31561162E8CA437:/workorder : Assiging Size of [claim] to [size(L)]
+21/07/2020 17:32:16:598 DEBUG - 0375040FAD5B4D99E31561162E8CA437:/workorder : channel:unknown | workorder:chkMyInWorkClaim |  | size(L) : 0
+21/07/2020 17:32:16:598  INFO - 0375040FAD5B4D99E31561162E8CA437:/workorder : [condition2] Expression [size(L)] Numeric Greater Than or Equal [1]
+21/07/2020 17:32:16:599  INFO - 0375040FAD5B4D99E31561162E8CA437:/workorder : Using SCESession 0375040FAD5B4D99E31561162E8CA437:/workorder servlet : noMyInWorkClaim
+21/07/2020 17:32:20:074  INFO - 0375040FAD5B4D99E31561162E8CA437:/workorder : Using SCESession 0375040FAD5B4D99E31561162E8CA437:/workorder servlet : onMainMenu
+21/07/2020 17:32:20:125  INFO - 0375040FAD5B4D99E31561162E8CA437:/workorder : Assigning [none] to [request:action]
+21/07/2020 17:32:20:126  INFO - 0375040FAD5B4D99E31561162E8CA437:/workorder : Using SCESession 0375040FAD5B4D99E31561162E8CA437:/workorder servlet : mainMenu
+21/07/2020 17:32:24:128  INFO - 0375040FAD5B4D99E31561162E8CA437:/workorder : Using SCESession 0375040FAD5B4D99E31561162E8CA437:/workorder servlet : onTakeClaim
+21/07/2020 17:32:24:128  INFO - 0375040FAD5B4D99E31561162E8CA437:/workorder : Storing :mainMenu___value to complex: mainMenu:value  as [getClaim]
+21/07/2020 17:32:24:129 DEBUG - 0375040FAD5B4D99E31561162E8CA437:/workorder : Not able to save posted variable information [simulation]
+21/07/2020 17:32:24:129 DEBUG - 0375040FAD5B4D99E31561162E8CA437:/workorder : Not able to save posted variable information [avaya.telephone.channel]
+21/07/2020 17:32:24:179  INFO - 0375040FAD5B4D99E31561162E8CA437:/workorder : Assigning [take] to [request:action]
+21/07/2020 17:32:24:179  INFO - 0375040FAD5B4D99E31561162E8CA437:/workorder : Empty Collection [claim]
+21/07/2020 17:32:24:179  INFO - 0375040FAD5B4D99E31561162E8CA437:/workorder : Empty Collection [response]
+21/07/2020 17:32:24:179  INFO - 0375040FAD5B4D99E31561162E8CA437:/workorder : Using SCESession 0375040FAD5B4D99E31561162E8CA437:/workorder servlet : takeClaim
+21/07/2020 17:32:24:230  INFO - 0375040FAD5B4D99E31561162E8CA437:/workorder : Starting REST web service operation [takeClaim]
+21/07/2020 17:32:24:258 DEBUG - 0375040FAD5B4D99E31561162E8CA437:/workorder : Web Service Request -> http://127.0.0.1:9090/claim?action=take&msisdn=9686512000
+21/07/2020 17:32:24:274  INFO - 0375040FAD5B4D99E31561162E8CA437:/workorder : Unexpected EOF: Web service returned 0 bytes of data.
+21/07/2020 17:32:24:274 DEBUG - 0375040FAD5B4D99E31561162E8CA437:/workorder : channel:unknown | workorder:takeClaim |  | response:all : 
+21/07/2020 17:32:24:274  INFO - 0375040FAD5B4D99E31561162E8CA437:/workorder : Using SCESession 0375040FAD5B4D99E31561162E8CA437:/workorder servlet : onListMyClaim
+21/07/2020 17:32:24:325  INFO - 0375040FAD5B4D99E31561162E8CA437:/workorder : Empty Collection [claim]
+21/07/2020 17:32:24:326  INFO - 0375040FAD5B4D99E31561162E8CA437:/workorder : Empty Collection [response]
+21/07/2020 17:32:24:327  INFO - 0375040FAD5B4D99E31561162E8CA437:/workorder : Using SCESession 0375040FAD5B4D99E31561162E8CA437:/workorder servlet : getListMyClaim
+21/07/2020 17:32:24:378  INFO - 0375040FAD5B4D99E31561162E8CA437:/workorder : Starting REST web service operation [listMyClaim]
+21/07/2020 17:32:24:393 DEBUG - 0375040FAD5B4D99E31561162E8CA437:/workorder : Web Service Request -> http://127.0.0.1:9090/claim?msisdn=9686512000
+21/07/2020 17:32:24:403  INFO - 0375040FAD5B4D99E31561162E8CA437:/workorder : Unexpected EOF: Web service returned 0 bytes of data.
+21/07/2020 17:32:24:403 DEBUG - 0375040FAD5B4D99E31561162E8CA437:/workorder : channel:unknown | workorder:getListMyClaim |  | response:all : 
+21/07/2020 17:32:24:403  INFO - 0375040FAD5B4D99E31561162E8CA437:/workorder : Using SCESession 0375040FAD5B4D99E31561162E8CA437:/workorder servlet : parseListMyClaim
+21/07/2020 17:32:24:455  INFO - 0375040FAD5B4D99E31561162E8CA437:/workorder : Using SCESession 0375040FAD5B4D99E31561162E8CA437:/workorder servlet : chkMyListClaim
+21/07/2020 17:32:24:507  INFO - 0375040FAD5B4D99E31561162E8CA437:/workorder : [condition1] Expression [claim] Is Collection
+21/07/2020 17:32:24:507  INFO - 0375040FAD5B4D99E31561162E8CA437:/workorder : Assiging Size of [claim] to [size(L)]
+21/07/2020 17:32:24:507 DEBUG - 0375040FAD5B4D99E31561162E8CA437:/workorder : channel:unknown | workorder:chkMyListClaim |  | size(L) : 0
+21/07/2020 17:32:24:507  INFO - 0375040FAD5B4D99E31561162E8CA437:/workorder : [condition2] Expression [size(L)] Numeric Greater Than or Equal [1]
+21/07/2020 17:32:24:507  INFO - 0375040FAD5B4D99E31561162E8CA437:/workorder : Using SCESession 0375040FAD5B4D99E31561162E8CA437:/workorder servlet : chkTakeClaim
+21/07/2020 17:32:24:557  INFO - 0375040FAD5B4D99E31561162E8CA437:/workorder : [condition1] Expression [request:action] String Equal Ignorecase [take]
+21/07/2020 17:32:24:557  INFO - 0375040FAD5B4D99E31561162E8CA437:/workorder : Using SCESession 0375040FAD5B4D99E31561162E8CA437:/workorder servlet : noClaim
+21/07/2020 17:32:28:461  INFO - 0375040FAD5B4D99E31561162E8CA437:/workorder : Using SCESession 0375040FAD5B4D99E31561162E8CA437:/workorder servlet : exit
+21/07/2020 17:32:28:515  INFO - 0375040FAD5B4D99E31561162E8CA437:/workorder : HTTP Session lost removing SCESession 0375040FAD5B4D99E31561162E8CA437
+21/07/2020 17:32:28:515  INFO - 0375040FAD5B4D99E31561162E8CA437:/workorder : SCESession Removed
+21/07/2020 17:32:28:515 DEBUG - 0375040FAD5B4D99E31561162E8CA437:/workorder : Removing 1 session stack frames.
+21/07/2020 17:32:28:515  INFO - 0375040FAD5B4D99E31561162E8CA437:/workorder : ** Popped Stack Frame [/workorder]

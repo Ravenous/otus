@@ -405,6 +405,18 @@ Copyright 2004-2019 Avaya Inc.
         <servlet-name>takeClaim</servlet-name>
         <servlet-class>flow.takeClaim</servlet-class>
     </servlet>
+    <servlet id="SAGE-callflow-servlet_main_265">
+        <servlet-name>chkMyInWorkClaim</servlet-name>
+        <servlet-class>flow.chkMyInWorkClaim</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_281">
+        <servlet-name>noMyInWorkClaim</servlet-name>
+        <servlet-class>flow.noMyInWorkClaim</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_289">
+        <servlet-name>chkTakeClaim</servlet-name>
+        <servlet-class>flow.chkTakeClaim</servlet-class>
+    </servlet>
     <servlet-mapping id="avayadefaultexithandler-servletmapping">
         <servlet-name>AvayaDefaultExitHandler</servlet-name>
         <url-pattern>/AvayaDefaultExitHandler</url-pattern>
@@ -536,6 +548,18 @@ Copyright 2004-2019 Avaya Inc.
     <servlet-mapping id="SAGE-callflow-servletmapping_main_234">
         <servlet-name>takeClaim</servlet-name>
         <url-pattern>/takeClaim</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_265">
+        <servlet-name>chkMyInWorkClaim</servlet-name>
+        <url-pattern>/chkMyInWorkClaim</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_281">
+        <servlet-name>noMyInWorkClaim</servlet-name>
+        <url-pattern>/noMyInWorkClaim</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_289">
+        <servlet-name>chkTakeClaim</servlet-name>
+        <url-pattern>/chkTakeClaim</url-pattern>
     </servlet-mapping>
     
 </web-app>
