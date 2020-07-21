@@ -1,0 +1,1 @@
+DELETE FROM claim WHERE id=:#id::bigint
