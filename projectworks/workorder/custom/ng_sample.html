@@ -1,0 +1,140 @@
+<!-- 
+This sample html page demonstrates how OD can work with AngularJS to create a single-page web application client. 
+Basically, the way OD supports this is by outputting json data instead of HTML data to the client request
+submitted to the app server. The json data returned from the app server contains information for the elements 
+specified in the OD flow editor.
+For OD to return json data , the developer of the client has make sure that "json" is added as a parameter to 
+the query string in the URL.
+The following sample code gives an idea how the client submits the request and parses the returned json
+data to construct the UI. Note that not all the elements are demonstrated in this sample. It's expected that the
+developer has to further add code to handle and display other element types that OD supports in its flow editor.
+ -->
+<!DOCTYPE html>
+<html>
+<head> 
+	<title>OD HTML5 AngularJS Demo</title>	
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	
+	<link rel="stylesheet" href="../css/jquery.mobile-1.4.5.css"/>
+	
+	<link rel="stylesheet" href="../css/avaya.css"/>
+	
+	<script src="../js/jquery.js"></script>
+	
+	
+	<script src="../js/jquery.mobile-1.4.5.js"></script>
+	
+	<script src="../js/avaya.js"></script>
+	
+	<script src="../js/jquery.mobile.avayamsg.js"></script>
+	<script src="../js/jquery.validate.js"></script>
+	
+	<script src= "http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.js"></script>
+	<script src= "http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular-sanitize.js"></script>
+	
+</head>
+<body>
+<div ng-app="myApp" ng-controller="customersCtrl"> 
+<div data-role="page" >
+<div data-role="content" >
+		<div  ng-repeat="element in uidata.elements" ng-switch on="element.inputtype">
+			<div ng-switch-when="text" ng-switch on="element.type">
+				 <div data-role="fieldcontain" ng-switch-when="text">			
+					<label  for="{{element.name}}">{{element.label}}</label>
+					<input  type="text" name="{{element.name}}" id="{{element.name}}"   ng-model="element.value"  />
+				 </div>
+				<div data-role="fieldcontain" ng-switch-when="color">	
+					<label for="{{element.name}}">{{element.label}}</label>
+					<input type="color" name="{{element.name}}" id="{{element.name}}"   ng-model="element.value"  />
+				</div>
+				<div data-role="fieldcontain" ng-switch-when="range">	
+					<label for="{{element.name}}">{{element.label}}</label>
+					<input type="number" name="{{element.name}}" id="{{element.name}}"  min={{element.min}} max={{element.max}}  ng-model="element.value"  />			
+				</div>
+			</div>
+			<div ng-switch-when="display" ng-repeat="displayElem in element.elements" ng-switch on="displayElem.type">
+				<div data-role="fieldcontain" ng-switch-when="Text">
+					<label>{{displayElem.label}}</label>
+					<input  type="text" value="{{displayElem.value}}" readonly/>
+				</div>
+				<div ng-switch-when="html">
+					<p ng-bind-html="displayElem.value"/>
+				</div>	
+			</div>
+			
+		</div>
+
+		<div ng-repeat="prompt in uidata.prompts">
+			<div ng-repeat="displayElem in prompt.elements" ng-switch on="displayElem.type">
+				<div ng-switch-when="html">
+					<p ng-bind-html="displayElem.value"/>
+				</div>	
+			</div>
+		</div>
+		<div data-role="fieldcontain" ng-if="uidata.links.length > 0">
+			<ul data-role="listview">							
+			<li ng-repeat="link in uidata.links">
+				<a ng-click="clickLink(link.link)">
+						{{link.name}}
+				</a>
+			</li>
+			</ul>
+		</div>
+		<a ng-if="uidata.previous != 'null' && !uidata.links" ng-click="clickPrevious()" data-role="button" data-icon="arrow-l" data-iconpos="left" data-inline="true">Back</a>		
+		<button ng-if="uidata.next" ng-click="clickNext()" data-theme="b" data-icon="arrow-r" data-iconpos="right" data-inline="true">Next</button>	
+	</div>
+ </div>
+
+<script>
+var app = angular.module('myApp', ['ngSanitize']);
+
+app.controller('customersCtrl', function($scope, $http) {
+  var next = "Start";
+  var previous = "";
+  var clickNext = function(){
+	  loadUrl(next);
+  };
+  var clickPrevious = function(){
+	  loadUrl(previous);
+  }
+  var loadUrl = function(path){
+	  var appName = window.location.pathname.split("/")[1];
+	 
+	  var queryStr = "";
+	  if (typeof $scope.uidata != "undefined" && typeof $scope.uidata.elements != "undefined"){
+		  var length = $scope.uidata.elements.length;
+		  for (var i=0; i<length; i++){
+			  if (queryStr != ""){
+				  queryStr += "&";
+			  }
+			  queryStr += $scope.uidata.elements[i].name + "=" + encodeURIComponent($scope.uidata.elements[i].value);
+		  }		  
+	  }
+	  if (queryStr.length > 0){
+		  if (path.indexOf("?") > -1){
+		  	path += "&" + queryStr
+		  }else{
+			path += "?" + queryStr 
+		  }
+	  }
+	  var json = "?json";
+	  if (path.indexOf("?") > -1){
+		  json = "&json";
+	  }
+	  $http.get("http://localhost:8080/" + appName + "/" + path + json)
+	  .success(function (response) {
+		  	$scope.uidata = response.uidata;
+		  	next = $scope.uidata.next;
+		  	previous = $scope.uidata.previous;
+	  });
+  };
+  $scope.clickNext = clickNext;
+  $scope.clickPrevious = clickPrevious;
+  $scope.clickLink = loadUrl;
+  clickNext();
+});
+</script>
+	
+</div>
+</body>
+</html>

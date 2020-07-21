@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<module category="Ravenous" descriptorversion="1.0" entrypoint="workorder/Start" forcesubdialogcall="false" frameworkversion="07.23.08.03" iconlarge="icons/defaultapplicationlg.gif" iconsmall="icons/defaultapplicationsm.gif" modifyInputs="false" modifyOutputs="false" nature="com.avaya.sce.core.webnature" outputmultipart="false" paramasnamelist="false" provider="Revolt SoftWare" submitmethod="get" version="1.0.0" webname="workorder">
+    <description/>
+    <language name="" root=""/>
+    <dependencies/>
+</module>

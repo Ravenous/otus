@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<propertystore id="sage" version="1.0">
+    <propertymap>
+        <property name="usejquery" value="true" version="1.0"/>
+        <property name="usecustomtemplates" value="false" version="1.0"/>
+        <property name="maptype" value="MAP_TYPE_GOOGLE" version="1.0"/>
+        <property name="hidebackbutton" value="false" version="1.0"/>
+    </propertymap>
+    <nestedpropertystore>
+        <propertystore id="general" version="1.0">
+            <propertymap/>
+            <nestedpropertystore>
+                <propertystore id="project" version="1.0">
+                    <propertymap>
+                        <property name="iconlg" value="icons/defaultapplicationlg.gif" version="1.0"/>
+                        <property name="logpropertiesupdated" value="3.0.17x2" version="1.0"/>
+                        <property name="vendor" value="Revolt SoftWare" version="1.0"/>
+                        <property name="iconsm" value="icons/defaultapplicationsm.gif" version="1.0"/>
+                        <property name="name" value="workorder" version="1.0"/>
+                        <property name="category" value="Ravenous" version="1.0"/>
+                        <property name="version" value="1.0.0" version="1.0"/>
+                    </propertymap>
+                    <nestedpropertystore/>
+                </propertystore>
+                <propertystore id="ide" version="1.0">
+                    <propertymap>
+                        <property name="version" value="419" version="1.0"/>
+                    </propertymap>
+                    <nestedpropertystore/>
+                </propertystore>
+            </nestedpropertystore>
+        </propertystore>
+        <propertystore id="datasource" version="1.0">
+            <propertymap/>
+            <nestedpropertystore>
+                <propertystore id="notification" version="1.0">
+                    <propertymap>
+                        <property name="cavenabled" value="false" version="1.0"/>
+                        <property name="notificationappnamecavenabled" value="false" version="1.0"/>
+                    </propertymap>
+                    <nestedpropertystore/>
+                </propertystore>
+            </nestedpropertystore>
+        </propertystore>
+        <propertystore id="runtimecommon" version="1.0">
+            <propertymap/>
+            <nestedpropertystore>
+                <propertystore id="scert" version="1.0">
+                    <propertymap>
+                        <property name="version" value="07.23.08.03" version="1.0"/>
+                    </propertymap>
+                    <nestedpropertystore/>
+                </propertystore>
+            </nestedpropertystore>
+        </propertystore>
+        <propertystore id="runtime" version="1.0">
+            <propertymap/>
+            <nestedpropertystore>
+                <propertystore id="scert" version="1.0">
+                    <propertymap>
+                        <property name="version" value="07.23.08.03" version="1.0"/>
+                    </propertymap>
+                    <nestedpropertystore/>
+                </propertystore>
+                <propertystore id="tomcat" version="1.0">
+                    <propertymap>
+                        <property name="version" value="tomcatv9" version="1.0"/>
+                    </propertymap>
+                    <nestedpropertystore/>
+                </propertystore>
+            </nestedpropertystore>
+        </propertystore>
+        <propertystore id="pluggableconnectors" version="1.0">
+            <propertymap/>
+            <nestedpropertystore>
+                <propertystore id="comavayascerestwsconnector" version="1.0">
+                    <propertymap>
+                        <property name="displayName" value="Web Services (REST)" version="1.0"/>
+                        <property name="connectorId" value="com.avaya.sce.restws.connector" version="1.0"/>
+                        <property name="currentVersion" value="1" version="1.0"/>
+                    </propertymap>
+                    <nestedpropertystore/>
+                </propertystore>
+            </nestedpropertystore>
+        </propertystore>
+    </nestedpropertystore>
+</propertystore>

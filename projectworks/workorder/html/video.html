@@ -1,0 +1,38 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+	<title>Camera</title> 
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<link rel="stylesheet" href="../css/jquery.mobile-1.4.5.css" />
+	<script src="../js/jquery.js"></script>
+	<script src="../js/jquery.mobile-1.4.5.js"></script>
+	<script src="whammy.js"></script>
+	<script src="../js/avaya.js"></script>	
+</head> 
+<body>
+
+<div data-role="page">
+	
+	
+<script type='text/javascript'>
+	$(document).ready(function() {
+		var preview = document.getElementById("preview"),
+        video = document.getElementById("video"),
+        btnStart = document.getElementById("btnStart"),      
+        btnRecord = document.getElementById("btnRecord");
+		var id = window.location.search;
+		id = id.replace("?id=","");		
+		show = window.opener.document.getElementById(id);
+		var show;
+		var video = new Video(preview, video, btnStart, btnRecord, show); 
+		video.init();
+})
+</script>
+
+<video  id="video" width="320" height="200" autoplay></video>
+<video id="preview" width="320" height="200" controls></video>
+<button id="btnStart">Start Camera</button>
+<button id="btnRecord">Record</button>
+</div>
+</body>
+</html>

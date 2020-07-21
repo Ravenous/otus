@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+This XML descriptor is automatically generated and managed by the
+application development environment.  While manual updates to this 
+file may be preserved, it is best to manage this file through the application development environment tool.
+
+Copyright 2004-2019 Avaya Inc.
+--><!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app id="WebApp_ID">
+    <context-param>
+        <param-name>sage.startlanguage</param-name>
+        <param-value>russian</param-value>
+        <description>The starting language for the application.</description>
+    </context-param>
+    <context-param>
+        <param-name>runtime-Platform</param-name>
+        <param-value>Desktop</param-value>
+        <description>Runtime Platform {Desktop|Experience Portal|Other}</description>
+    </context-param>
+    <context-param>
+        <param-name>runtime-nature</param-name>
+        <param-value>web</param-value>
+        <description>Application nature, speech, message, data or web</description>
+    </context-param>
+    <context-param>
+        <param-name>CollectionSeparator</param-name>
+        <param-value>|</param-value>
+        <description>Collection Separator Char</description>
+    </context-param>
+    <context-param>
+        <param-name>HideSessionIdOnURL</param-name>
+        <param-value>false</param-value>
+        <description>Set the parameter to true to NOT show the OD Session Id on the URL</description>
+    </context-param>
+    <context-param>
+        <param-name>listClaim_1595258907636TimeoutSeconds</param-name>
+        <param-value>45</param-value>
+        <description>Web Service timeout for [listClaim]</description>
+    </context-param>
+    <context-param>
+        <param-name>listClaim_1595258907636EndpointUrl</param-name>
+        <param-value>http://127.0.0.1:9090/claim</param-value>
+        <description>Web Service end point for [listClaim]</description>
+    </context-param>
+    <context-param>
+        <param-name>listClaim_1595258907636Authentication</param-name>
+        <param-value>No Authentication</param-value>
+        <description>Authentication for web service [listClaim]</description>
+    </context-param>
+    <context-param>
+        <param-name>listClaim_1595258907637Password</param-name>
+        <param-value>i5/PolNOtdo=</param-value>
+        <description>Encrypted password for web service [listClaim]</description>
+    </context-param>
+    <context-param>
+        <param-name>listClaim_1595258907637Username</param-name>
+        <param-value/>
+        <description>Username for web service [listClaim]</description>
+    </context-param>
+    <context-param>
+        <param-name>listClaim_1595258907637Preemptive</param-name>
+        <param-value>false</param-value>
+        <description>Use preemptive authorization for web service [listClaim]</description>
+    </context-param>
+    <context-param>
+        <param-name>listClaim_1595258907637Security</param-name>
+        <param-value>No Security</param-value>
+        <description>Use SSL for web service [listClaim]</description>
+    </context-param>
+    <context-param>
+        <param-name>listClaim_1595258907637Port</param-name>
+        <param-value/>
+        <description>Port number for use in a secure HTTP connection [listClaim]</description>
+    </context-param>
+    <context-param>
+        <param-name>listClaim_1595258909068TimeoutSeconds</param-name>
+        <param-value>45</param-value>
+        <description>Web Service timeout for [listClaim]</description>
+    </context-param>
+    <context-param>
+        <param-name>listClaim_1595258909068EndpointUrl</param-name>
+        <param-value>http://</param-value>
+        <description>Web Service end point for [listClaim]</description>
+    </context-param>
+    <context-param>
+        <param-name>listClaim_1595258909068Authentication</param-name>
+        <param-value>No Authentication</param-value>
+        <description>Authentication for web service [listClaim]</description>
+    </context-param>
+    <context-param>
+        <param-name>listClaim_1595258909068Username</param-name>
+        <param-value/>
+        <description>Username for web service [listClaim]</description>
+    </context-param>
+    <context-param>
+        <param-name>listClaim_1595258909068Password</param-name>
+        <param-value>i5/PolNOtdo=</param-value>
+        <description>Encrypted password for web service [listClaim]</description>
+    </context-param>
+    <context-param>
+        <param-name>listClaim_1595258909068Preemptive</param-name>
+        <param-value>false</param-value>
+        <description>Use preemptive authorization for web service [listClaim]</description>
+    </context-param>
+    <context-param>
+        <param-name>listClaim_1595258909068Security</param-name>
+        <param-value>No Security</param-value>
+        <description>Use SSL for web service [listClaim]</description>
+    </context-param>
+    <context-param>
+        <param-name>listClaim_1595258909068Port</param-name>
+        <param-value/>
+        <description>Port number for use in a secure HTTP connection [listClaim]</description>
+    </context-param>
+    <context-param>
+        <param-name>listClaim_1595274310536TimeoutSeconds</param-name>
+        <param-value>45</param-value>
+        <description>Web Service timeout for [listMyClaim]</description>
+    </context-param>
+    <context-param>
+        <param-name>listClaim_1595274310536EndpointUrl</param-name>
+        <param-value>http://127.0.0.1:9090/claim</param-value>
+        <description>Web Service end point for [listMyClaim]</description>
+    </context-param>
+    <context-param>
+        <param-name>listClaim_1595274310536Authentication</param-name>
+        <param-value>No Authentication</param-value>
+        <description>Authentication for web service [listMyClaim]</description>
+    </context-param>
+    <context-param>
+        <param-name>listClaim_1595274310536Username</param-name>
+        <param-value/>
+        <description>Username for web service [listMyClaim]</description>
+    </context-param>
+    <context-param>
+        <param-name>listClaim_1595274310536Password</param-name>
+        <param-value>i5/PolNOtdo=</param-value>
+        <description>Encrypted password for web service [listMyClaim]</description>
+    </context-param>
+    <context-param>
+        <param-name>listClaim_1595274310536Preemptive</param-name>
+        <param-value>false</param-value>
+        <description>Use preemptive authorization for web service [listMyClaim]</description>
+    </context-param>
+    <context-param>
+        <param-name>listClaim_1595274310536Security</param-name>
+        <param-value>No Security</param-value>
+        <description>Use SSL for web service [listMyClaim]</description>
+    </context-param>
+    <context-param>
+        <param-name>listClaim_1595274310536Port</param-name>
+        <param-value/>
+        <description>Port number for use in a secure HTTP connection [listMyClaim]</description>
+    </context-param>
+    <context-param>
+        <param-name>listMyClaim_1595303733321TimeoutSeconds</param-name>
+        <param-value>45</param-value>
+        <description>Web Service timeout for [closeMyClaim]</description>
+    </context-param>
+    <context-param>
+        <param-name>listMyClaim_1595303733321EndpointUrl</param-name>
+        <param-value>http://127.0.0.1:9090/claim</param-value>
+        <description>Web Service end point for [closeMyClaim]</description>
+    </context-param>
+    <context-param>
+        <param-name>listMyClaim_1595303733321Authentication</param-name>
+        <param-value>No Authentication</param-value>
+        <description>Authentication for web service [closeMyClaim]</description>
+    </context-param>
+    <context-param>
+        <param-name>listMyClaim_1595303733321Username</param-name>
+        <param-value/>
+        <description>Username for web service [closeMyClaim]</description>
+    </context-param>
+    <context-param>
+        <param-name>listMyClaim_1595303733321Password</param-name>
+        <param-value>i5/PolNOtdo=</param-value>
+        <description>Encrypted password for web service [closeMyClaim]</description>
+    </context-param>
+    <context-param>
+        <param-name>listMyClaim_1595303733321Preemptive</param-name>
+        <param-value>false</param-value>
+        <description>Use preemptive authorization for web service [closeMyClaim]</description>
+    </context-param>
+    <context-param>
+        <param-name>listMyClaim_1595303733321Security</param-name>
+        <param-value>No Security</param-value>
+        <description>Use SSL for web service [closeMyClaim]</description>
+    </context-param>
+    <context-param>
+        <param-name>listMyClaim_1595303733321Port</param-name>
+        <param-value/>
+        <description>Port number for use in a secure HTTP connection [closeMyClaim]</description>
+    </context-param>
+    <context-param>
+        <param-name>closeMyClaim_1595304494151TimeoutSeconds</param-name>
+        <param-value>45</param-value>
+        <description>Web Service timeout for [closeClaim]</description>
+    </context-param>
+    <context-param>
+        <param-name>closeMyClaim_1595304494151EndpointUrl</param-name>
+        <param-value>http://127.0.0.1:9090/claim</param-value>
+        <description>Web Service end point for [closeClaim]</description>
+    </context-param>
+    <context-param>
+        <param-name>closeMyClaim_1595304494151Authentication</param-name>
+        <param-value>No Authentication</param-value>
+        <description>Authentication for web service [closeClaim]</description>
+    </context-param>
+    <context-param>
+        <param-name>closeMyClaim_1595304494151Username</param-name>
+        <param-value/>
+        <description>Username for web service [closeClaim]</description>
+    </context-param>
+    <context-param>
+        <param-name>closeMyClaim_1595304494151Password</param-name>
+        <param-value>i5/PolNOtdo=</param-value>
+        <description>Encrypted password for web service [closeClaim]</description>
+    </context-param>
+    <context-param>
+        <param-name>closeMyClaim_1595304494151Preemptive</param-name>
+        <param-value>false</param-value>
+        <description>Use preemptive authorization for web service [closeClaim]</description>
+    </context-param>
+    <context-param>
+        <param-name>closeMyClaim_1595304494151Security</param-name>
+        <param-value>No Security</param-value>
+        <description>Use SSL for web service [closeClaim]</description>
+    </context-param>
+    <context-param>
+        <param-name>closeMyClaim_1595304494151Port</param-name>
+        <param-value/>
+        <description>Port number for use in a secure HTTP connection [closeClaim]</description>
+    </context-param>
+    <context-param>
+        <param-name>closeClaim_1595316171367TimeoutSeconds</param-name>
+        <param-value>45</param-value>
+        <description>Web Service timeout for [takeClaim]</description>
+    </context-param>
+    <context-param>
+        <param-name>closeClaim_1595316171367EndpointUrl</param-name>
+        <param-value>http://127.0.0.1:9090/claim</param-value>
+        <description>Web Service end point for [takeClaim]</description>
+    </context-param>
+    <context-param>
+        <param-name>closeClaim_1595316171367Authentication</param-name>
+        <param-value>No Authentication</param-value>
+        <description>Authentication for web service [takeClaim]</description>
+    </context-param>
+    <context-param>
+        <param-name>closeClaim_1595316171367Username</param-name>
+        <param-value/>
+        <description>Username for web service [takeClaim]</description>
+    </context-param>
+    <context-param>
+        <param-name>closeClaim_1595316171367Password</param-name>
+        <param-value>i5/PolNOtdo=</param-value>
+        <description>Encrypted password for web service [takeClaim]</description>
+    </context-param>
+    <context-param>
+        <param-name>closeClaim_1595316171367Preemptive</param-name>
+        <param-value>false</param-value>
+        <description>Use preemptive authorization for web service [takeClaim]</description>
+    </context-param>
+    <context-param>
+        <param-name>closeClaim_1595316171367Security</param-name>
+        <param-value>No Security</param-value>
+        <description>Use SSL for web service [takeClaim]</description>
+    </context-param>
+    <context-param>
+        <param-name>closeClaim_1595316171367Port</param-name>
+        <param-value/>
+        <description>Port number for use in a secure HTTP connection [takeClaim]</description>
+    </context-param>
+    <servlet id="avayadefaultexithandler-servlet">
+        <servlet-name>AvayaDefaultExitHandler</servlet-name>
+        <servlet-class>com.avaya.sce.runtime.DefaultExit</servlet-class>
+    </servlet>
+    <servlet id="avayainitapp-servlet">
+        <servlet-name>AvayaInitAppServlet</servlet-name>
+        <servlet-class>com.avaya.sce.runtime.InitApp</servlet-class>
+    </servlet>
+    <servlet id="avayasessiontermination-servlet">
+        <servlet-name>AvayaSessionTerminationServlet</servlet-name>
+        <servlet-class>com.avaya.sce.runtime.AvayaSessionTerminationServlet</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1">
+        <servlet-name>AppRoot</servlet-name>
+        <servlet-class>flow.AppRoot</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_3">
+        <servlet-name>exit</servlet-name>
+        <servlet-class>flow.exit</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_0">
+        <servlet-name>Start</servlet-name>
+        <servlet-class>flow.Start</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_16">
+        <servlet-name>onTakeClaim</servlet-name>
+        <servlet-class>flow.onTakeClaim</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_20">
+        <servlet-name>onGetMyInWorkClaim</servlet-name>
+        <servlet-class>flow.onGetMyInWorkClaim</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_5">
+        <servlet-name>onStart</servlet-name>
+        <servlet-class>flow.onStart</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_10">
+        <servlet-name>onListClaim</servlet-name>
+        <servlet-class>flow.onListClaim</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_26">
+        <servlet-name>mainMenu</servlet-name>
+        <servlet-class>flow.mainMenu</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_50">
+        <servlet-name>getListClaim</servlet-name>
+        <servlet-class>flow.getListClaim</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_58">
+        <servlet-name>parseListClaim</servlet-name>
+        <servlet-class>flow.parseListClaim</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_63">
+        <servlet-name>listClaim</servlet-name>
+        <servlet-class>flow.listClaim</servlet-class>
+    </servlet>
+    
+    <servlet id="SAGE-callflow-servlet_main_83">
+        <servlet-name>error</servlet-name>
+        <servlet-class>flow.error</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_92">
+        <servlet-name>getMsisdn</servlet-name>
+        <servlet-class>flow.getMsisdn</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_98">
+        <servlet-name>setMsisdn</servlet-name>
+        <servlet-class>flow.setMsisdn</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_103">
+        <servlet-name>getCode</servlet-name>
+        <servlet-class>flow.getCode</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_109">
+        <servlet-name>onMainMenu</servlet-name>
+        <servlet-class>flow.onMainMenu</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_128">
+        <servlet-name>onListMyClaim</servlet-name>
+        <servlet-class>flow.onListMyClaim</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_132">
+        <servlet-name>parseListMyClaim</servlet-name>
+        <servlet-class>flow.parseListMyClaim</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_136">
+        <servlet-name>listMyClaim</servlet-name>
+        <servlet-class>flow.listMyClaim</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_118">
+        <servlet-name>getListMyClaim</servlet-name>
+        <servlet-class>flow.getListMyClaim</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_148">
+        <servlet-name>parseMyInWorkClaim</servlet-name>
+        <servlet-class>flow.parseMyInWorkClaim</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_151">
+        <servlet-name>getMyInWorkClaim</servlet-name>
+        <servlet-class>flow.getMyInWorkClaim</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_161">
+        <servlet-name>MyInWorkClaim</servlet-name>
+        <servlet-class>flow.MyInWorkClaim</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_173">
+        <servlet-name>onCloseClaim</servlet-name>
+        <servlet-class>flow.onCloseClaim</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_179">
+        <servlet-name>closeClaim</servlet-name>
+        <servlet-class>flow.closeClaim</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_194">
+        <servlet-name>chkListClaim</servlet-name>
+        <servlet-class>flow.chkListClaim</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_205">
+        <servlet-name>noClaim</servlet-name>
+        <servlet-class>flow.noClaim</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_211">
+        <servlet-name>noMyClaim</servlet-name>
+        <servlet-class>flow.noMyClaim</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_217">
+        <servlet-name>chkMyListClaim</servlet-name>
+        <servlet-class>flow.chkMyListClaim</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_234">
+        <servlet-name>takeClaim</servlet-name>
+        <servlet-class>flow.takeClaim</servlet-class>
+    </servlet>
+    <servlet-mapping id="avayadefaultexithandler-servletmapping">
+        <servlet-name>AvayaDefaultExitHandler</servlet-name>
+        <url-pattern>/AvayaDefaultExitHandler</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="avayainitapp-servletmapping">
+        <servlet-name>AvayaInitAppServlet</servlet-name>
+        <url-pattern>/InitApp</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="avayasessiontermination-servletmapping">
+        <servlet-name>AvayaSessionTerminationServlet</servlet-name>
+        <url-pattern>/AvayaSessionTerminationServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1">
+        <servlet-name>AppRoot</servlet-name>
+        <url-pattern>/AppRoot</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_3">
+        <servlet-name>exit</servlet-name>
+        <url-pattern>/exit</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_0">
+        <servlet-name>Start</servlet-name>
+        <url-pattern>/Start</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_16">
+        <servlet-name>onTakeClaim</servlet-name>
+        <url-pattern>/onTakeClaim</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_20">
+        <servlet-name>onGetMyInWorkClaim</servlet-name>
+        <url-pattern>/onGetMyInWorkClaim</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_5">
+        <servlet-name>onStart</servlet-name>
+        <url-pattern>/onStart</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_10">
+        <servlet-name>onListClaim</servlet-name>
+        <url-pattern>/onListClaim</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_26">
+        <servlet-name>mainMenu</servlet-name>
+        <url-pattern>/mainMenu</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_50">
+        <servlet-name>getListClaim</servlet-name>
+        <url-pattern>/getListClaim</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_58">
+        <servlet-name>parseListClaim</servlet-name>
+        <url-pattern>/parseListClaim</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_63">
+        <servlet-name>listClaim</servlet-name>
+        <url-pattern>/listClaim</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_83">
+        <servlet-name>error</servlet-name>
+        <url-pattern>/error</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_92">
+        <servlet-name>getMsisdn</servlet-name>
+        <url-pattern>/getMsisdn</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_98">
+        <servlet-name>setMsisdn</servlet-name>
+        <url-pattern>/setMsisdn</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_103">
+        <servlet-name>getCode</servlet-name>
+        <url-pattern>/getCode</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_109">
+        <servlet-name>onMainMenu</servlet-name>
+        <url-pattern>/onMainMenu</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_128">
+        <servlet-name>onListMyClaim</servlet-name>
+        <url-pattern>/onListMyClaim</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_132">
+        <servlet-name>parseListMyClaim</servlet-name>
+        <url-pattern>/parseListMyClaim</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_136">
+        <servlet-name>listMyClaim</servlet-name>
+        <url-pattern>/listMyClaim</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_118">
+        <servlet-name>getListMyClaim</servlet-name>
+        <url-pattern>/getListMyClaim</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_148">
+        <servlet-name>parseMyInWorkClaim</servlet-name>
+        <url-pattern>/parseMyInWorkClaim</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_151">
+        <servlet-name>getMyInWorkClaim</servlet-name>
+        <url-pattern>/getMyInWorkClaim</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_161">
+        <servlet-name>MyInWorkClaim</servlet-name>
+        <url-pattern>/MyInWorkClaim</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_173">
+        <servlet-name>onCloseClaim</servlet-name>
+        <url-pattern>/onCloseClaim</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_179">
+        <servlet-name>closeClaim</servlet-name>
+        <url-pattern>/closeClaim</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_194">
+        <servlet-name>chkListClaim</servlet-name>
+        <url-pattern>/chkListClaim</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_205">
+        <servlet-name>noClaim</servlet-name>
+        <url-pattern>/noClaim</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_211">
+        <servlet-name>noMyClaim</servlet-name>
+        <url-pattern>/noMyClaim</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_217">
+        <servlet-name>chkMyListClaim</servlet-name>
+        <url-pattern>/chkMyListClaim</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_234">
+        <servlet-name>takeClaim</servlet-name>
+        <url-pattern>/takeClaim</url-pattern>
+    </servlet-mapping>
+    
+</web-app>

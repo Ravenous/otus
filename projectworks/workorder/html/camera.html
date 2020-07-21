@@ -1,0 +1,39 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+	<title>Camera</title> 
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<link rel="stylesheet" href="../css/jquery.mobile-1.4.5.css" />
+	<script src="../js/jquery.js"></script>
+	<script src="../js/jquery.mobile-1.4.5.js"></script>
+	<script src="../js/avaya.js"></script>
+</head> 
+<body>
+
+<div data-role="page">
+	
+	
+<script type='text/javascript'>
+	$(document).ready(function() {
+		var canvas = document.getElementById("canvas"),
+        video = document.getElementById("video"),
+        btnStart = document.getElementById("btnStart"),      
+        btnPhoto = document.getElementById("btnPhoto");
+		var id = window.location.search;
+		id = id.replace("?id=","");		
+		//show = window.opener.document.getElementById("picture_elem_input")
+		//show = document.getElementById("picture")
+		//alert(id);
+		show = window.opener.document.getElementById(id);
+		var pic = new Picture(canvas, video, btnStart, btnPhoto, show); 
+		pic.init();
+})
+</script>
+
+<video  id="video" width="320" height="200" autoplay></video>
+<canvas id="canvas" width="320" height="240"></canvas>
+<button id="btnStart">Start Camera</button>
+<button id="btnPhoto">Take/Re-take a photo</button>
+</div>
+</body>
+</html>

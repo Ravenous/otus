@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<textset filename="mainMenu" version="1.0">
+    <text version="1.0">
+        <displayname>listClaim</displayname>
+        <textvalue>Все заявки</textvalue>
+        <comments/>
+    </text>
+    <text version="1.0">
+        <displayname>getClaim</displayname>
+        <textvalue>Взять в работу</textvalue>
+        <comments/>
+    </text>
+    <text version="1.0">
+        <displayname>closeClaim</displayname>
+        <textvalue>Закрыть заявку</textvalue>
+        <comments/>
+    </text>
+    <text version="1.0">
+        <displayname>farewell</displayname>
+        <textvalue>Выход</textvalue>
+        <comments/>
+    </text>
+    <text version="1.0">
+        <displayname>msisdn</displayname>
+        <textvalue>Номер телефона</textvalue>
+        <comments/>
+    </text>
+    <text version="1.0">
+        <displayname>code</displayname>
+        <textvalue>Код из SMS</textvalue>
+        <comments/>
+    </text>
+    <text version="1.0">
+        <displayname>listMyClaim</displayname>
+        <textvalue>Мои заявки</textvalue>
+        <comments/>
+    </text>
+</textset>

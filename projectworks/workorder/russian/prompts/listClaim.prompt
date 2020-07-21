@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<PromptDoc>
+    <Prompt addreply="false" audioonly="false" bargeintype="speech" order="standard" version="1.0">
+        <PromptLevel count="1" valid="true">
+            <Properties>
+                <Property name="Timeout_Presentation" value="constant"/>
+                <Property name="Timeout" value="8"/>
+                <Property name="TimeUnit" value="seconds"/>
+                <Property name="BargeIn" value="true"/>
+            </Properties>
+            <ChildItems>
+                <Segment class="com.avaya.sce.prompts.internal.segment.LoopVarCollection" type="Loop Var Coll Segment">
+                    <Properties>
+                        <Property name="Field" value="id"/>
+                        <Property name="Name" value="claim"/>
+                    </Properties>
+                    <ChildItems>
+                        <Segment class="com.avaya.sce.prompts.internal.segment.HtmlTextSegment" type="HTML Text Segment">
+                            <Properties>
+                                <Property name="Name" value="&lt;p style=&quot;font-weight:bold&quot;&gt;"/>
+                            </Properties>
+                            <ChildItems/>
+                        </Segment>
+                        <Segment class="com.avaya.sce.prompts.internal.segment.HtmlTextSegment" type="HTML Text Segment">
+                            <Properties>
+                                <Property name="Name" value="#"/>
+                            </Properties>
+                            <ChildItems/>
+                        </Segment>
+                        <Segment class="com.avaya.sce.prompts.internal.segment.TextVariable" type="TextVariable">
+                            <Properties>
+                                <Property name="Field" value="id"/>
+                                <Property name="Format" value="text"/>
+                                <Property name="Name" value="claim"/>
+                            </Properties>
+                            <ChildItems/>
+                        </Segment>
+                        <Segment class="com.avaya.sce.prompts.internal.segment.HtmlTextSegment" type="HTML Text Segment">
+                            <Properties>
+                                <Property name="Name" value="-"/>
+                            </Properties>
+                            <ChildItems/>
+                        </Segment>
+                        <Segment class="com.avaya.sce.prompts.internal.segment.TextVariable" type="TextVariable">
+                            <Properties>
+                                <Property name="Field" value="topic"/>
+                                <Property name="Format" value="text"/>
+                                <Property name="Name" value="claim"/>
+                            </Properties>
+                            <ChildItems/>
+                        </Segment>
+                        <Segment class="com.avaya.sce.prompts.internal.segment.HtmlTextSegment" type="HTML Text Segment">
+                            <Properties>
+                                <Property name="Name" value="&lt;/p&gt;"/>
+                            </Properties>
+                            <ChildItems/>
+                        </Segment>
+                        <Segment class="com.avaya.sce.prompts.internal.segment.HtmlTextSegment" type="HTML Text Segment">
+                            <Properties>
+                                <Property name="Name" value="&lt;p&gt;"/>
+                            </Properties>
+                            <ChildItems/>
+                        </Segment>
+                        <Segment class="com.avaya.sce.prompts.internal.segment.TextVariable" type="TextVariable">
+                            <Properties>
+                                <Property name="Field" value="description"/>
+                                <Property name="Format" value="text"/>
+                                <Property name="Name" value="claim"/>
+                            </Properties>
+                            <ChildItems/>
+                        </Segment>
+                        <Segment class="com.avaya.sce.prompts.internal.segment.HtmlTextSegment" type="HTML Text Segment">
+                            <Properties>
+                                <Property name="Name" value="&lt;/p&gt;"/>
+                            </Properties>
+                            <ChildItems/>
+                        </Segment>
+                        <Segment class="com.avaya.sce.prompts.internal.segment.HtmlTextSegment" type="HTML Text Segment">
+                            <Properties>
+                                <Property name="Name" value="&lt;p&gt;"/>
+                            </Properties>
+                            <ChildItems/>
+                        </Segment>
+                        <Segment class="com.avaya.sce.prompts.internal.segment.TextVariable" type="TextVariable">
+                            <Properties>
+                                <Property name="Field" value="status"/>
+                                <Property name="Format" value="text"/>
+                                <Property name="Name" value="claim"/>
+                            </Properties>
+                            <ChildItems/>
+                        </Segment>
+                        <Segment class="com.avaya.sce.prompts.internal.segment.HtmlTextSegment" type="HTML Text Segment">
+                            <Properties>
+                                <Property name="Name" value="&lt;/p&gt;"/>
+                            </Properties>
+                            <ChildItems/>
+                        </Segment>
+                        <Segment class="com.avaya.sce.prompts.internal.segment.HtmlTextSegment" type="HTML Text Segment">
+                            <Properties>
+                                <Property name="Name" value="&lt;p&gt;"/>
+                            </Properties>
+                            <ChildItems/>
+                        </Segment>
+                        <Segment class="com.avaya.sce.prompts.internal.segment.TextVariable" type="TextVariable">
+                            <Properties>
+                                <Property name="Field" value="critical"/>
+                                <Property name="Format" value="text"/>
+                                <Property name="Name" value="claim"/>
+                            </Properties>
+                            <ChildItems/>
+                        </Segment>
+                        <Segment class="com.avaya.sce.prompts.internal.segment.HtmlTextSegment" type="HTML Text Segment">
+                            <Properties>
+                                <Property name="Name" value="&lt;/p&gt;"/>
+                            </Properties>
+                            <ChildItems/>
+                        </Segment>
+                        <Segment class="com.avaya.sce.prompts.internal.segment.HtmlTextSegment" type="HTML Text Segment">
+                            <Properties>
+                                <Property name="Name" value="&lt;hr&gt;"/>
+                            </Properties>
+                            <ChildItems/>
+                        </Segment>
+                    </ChildItems>
+                </Segment>
+            </ChildItems>
+        </PromptLevel>
+    </Prompt>
+</PromptDoc>
